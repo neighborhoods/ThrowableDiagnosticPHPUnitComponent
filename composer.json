@@ -1,0 +1,31 @@
+{
+    "name": "neighborhoods/throwable-diagnostic-phpunit-component",
+    "description": "Utilities for testing software using ThrowableDiagnosticComponent.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hrvoje Jukic",
+            "email": "hrcajuka@gmail.com"
+        }
+    ],
+    "keywords": [
+        "phpunit",
+        "throwable-diagnostic-component",
+        "testing"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "neighborhoods/throwable-diagnostic-component": "^4.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neighborhoods\\ThrowableDiagnosticPHPUnitComponent\\": [
+                "src"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
