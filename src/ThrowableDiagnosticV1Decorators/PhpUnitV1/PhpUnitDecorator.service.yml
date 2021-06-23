@@ -3,4 +3,4 @@ services:
     class: Neighborhoods\ThrowableDiagnosticPHPUnitComponent\ThrowableDiagnosticV1Decorators\PhpUnitV1\PhpUnitDecorator
     decorates: Neighborhoods\ThrowableDiagnosticComponent\ThrowableDiagnosticV1\ThrowableDiagnosticInterface
     calls:
-      - [setThrowableDiagnosticV1ThrowableDiagnostic, ['@Neighborhoods\ThrowableDiagnosticComponentTest\ThrowableDiagnosticV1Decorators\PhpUnitV1\PhpUnitDecorator.inner']]
+      - [setThrowableDiagnosticV1ThrowableDiagnostic, ['@Neighborhoods\ThrowableDiagnosticPHPUnitComponent\ThrowableDiagnosticV1Decorators\PhpUnitV1\PhpUnitDecorator.inner']]
