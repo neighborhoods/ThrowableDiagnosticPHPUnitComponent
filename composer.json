@@ -16,7 +16,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "neighborhoods/throwable-diagnostic-component": "^4.0.3"
+        "neighborhoods/throwable-diagnostic-component": "^4.0.3",
+        "phpunit/phpunit": "^8 || ^9 || ^10 || ^11 || ^12 || ^13"
     },
     "autoload": {
         "psr-4": {
